@@ -46,3 +46,4 @@ export default App;
 ### React Component ###
 1. public은 npm run start 했을때 파일을 찾는장소
 2. Component 의 render라는 메소드를 가지고있음
+3. 
