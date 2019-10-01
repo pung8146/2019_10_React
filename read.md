@@ -32,6 +32,8 @@ class App extends Component {
   }
 }
 export default App;
+1. function 생략가능 최신기능
+2. 하나의 최상위 태그만 써야됨
 ------------------
 #### 배포하는법 ####
 6. 실제 사용되는 index 파일에 불필요한 여백제거
@@ -43,7 +45,10 @@ export default App;
 
 ########################
 
-### React Component ###
+#### React Component ####
 1. public은 npm run start 했을때 파일을 찾는장소
 2. Component 의 render라는 메소드를 가지고있음
-3.
+
+#### Props ####
+1. {this.props.변수} 변수명을 써주면 속성태그를 사용하면 가능
+#### React ####
