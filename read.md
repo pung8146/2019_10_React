@@ -51,4 +51,7 @@ export default App;
 
 #### Props ####
 1. {this.props.변수} 변수명을 써주면 속성태그를 사용하면 가능
-#### React ####
+#### React State ####
+1. props 랑 같이 보고 이해해야됨
+2. 공책참고
+3. index.js 에 <App /> 태그처럼 내부적으로 숨기는게 좋은코드이다!
