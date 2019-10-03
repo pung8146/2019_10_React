@@ -55,3 +55,6 @@ export default App;
 1. props 랑 같이 보고 이해해야됨
 2. 공책참고
 3. index.js 에 <App /> 태그처럼 내부적으로 숨기는게 좋은코드이다!
+#### React Key ####
+1. index.js:1375 Warning: Each child in a list should have a unique "key" prop. 에러는
+   key={data[i].id 키를 지정해주면 에러는 안사라짐 
