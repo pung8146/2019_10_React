@@ -83,3 +83,7 @@ export default App;
 4. constructor에서는 편하게 사용해도 괜찮음
 #### 17.1 컴포넌트 이벤트 만들기 ####
 1. Subject 에 onChangePage={fucntion(){}}
+#### 17.2 컴포넌트 이벤트 만들기2 ####
+1. 반복문에서 필터 사용법이라는게 있음
+2. break 반복문을 강제로 종료
+3. Number함수 강제로 숫자로바꿈
