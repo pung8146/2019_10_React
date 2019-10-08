@@ -93,4 +93,6 @@ export default App;
 3. Component 안에서 props를 바꾸는건 안됨. => props밖에서 바꾸는건 괜찮습니다.
 4. 상위컴포넌트가 하위에게 명령할때 props를 / 하위가 상위에게 데이트를 전달할때 props를 변경할수없기에 event를 사용한다.
 ※REDUX 
-5. 
+#### 19.1 Create 구현 : 소개 ####
+1. Create Read Update Delete
+2. 
