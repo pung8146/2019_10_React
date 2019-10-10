@@ -95,5 +95,6 @@ export default App;
 ※REDUX 
 #### 19.1 Create 구현 : 소개 ####
 1. Create Read Update Delete
-#### 19.2 Create 구현 : mode변경기능 ####
+#### 19.2 Create 구현 : mode 변경기능 ####
 1. 현재상태의 따라서 Mode를 변경할수있게함
+#### 19.3 Create 구현 : mode 전환기능 ####
