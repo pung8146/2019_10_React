@@ -10,7 +10,7 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      mode:'read',
+      mode:'create',
       selected_content_id:2,
       subject:{title:'WEB', sub:'World wide Web!'},
       welcome:{title:'Welcome', desc:'Hello React!!'},
@@ -42,7 +42,10 @@ class App extends Component {
       }
       _article = <ReadContent title={_title} desc={_desc}></ReadContent>   
     }else if(this.state.mode === "create"){
-      _article = <CreateContent></CreateContent>
+      _article = <CreateContent onSubmit={function(_title, _desc){
+        //  add content to this.state.contents
+        console.log(_title, _desc);
+      }.bind(this)}></CreateContent>
     }
     console.log('render' , this);
     

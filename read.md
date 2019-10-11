@@ -98,3 +98,11 @@ export default App;
 #### 19.2 Create 구현 : mode 변경기능 ####
 1. 현재상태의 따라서 Mode를 변경할수있게함
 #### 19.3 Create 구현 : mode 전환기능 ####
+#### 19.4 Create 구현 : Form ####
+1. form 원래는 action값에 어디에 전송할지 정해줌
+2. (몰라두됨)post방식으로 전달해야 url이 보이지않음
+3. onSubmit html의 기능 중요!
+#### 19.5 Create 구현 : onSubmit 이벤트 ####
+1. debugger 에서 e 에 값과 위치를 확인할수있음
+#### 19.6 Create 구현 : contents 변경 ####
+
