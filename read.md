@@ -105,4 +105,10 @@ export default App;
 #### 19.5 Create 구현 : onSubmit 이벤트 ####
 1. debugger 에서 e 에 값과 위치를 확인할수있음
 #### 19.6 Create 구현 : contents 변경 ####
-
+1. max_content_id => state로 하지않고 객체로 한이유는 ui에 영향을 주지 않기에 
+   할경우 불피요한 랜더링이라고 할수있음
+2. this.state.content.push = x => setState 사용해야됨
+3. 배열에 추가하는법 .push 는 원본을바꿈/ .concat 은 원본은 바꾸지않음 
+4. 주석과 다른방식은 원본을 건들지 않고
+5. 주석의 방법을 쓰면 퍼포먼스에 영향을 끼치기에 수정이 어려움 
+#### 19.7 Create 구현 : contents 변경 ####
