@@ -111,4 +111,15 @@ export default App;
 3. 배열에 추가하는법 .push 는 원본을바꿈/ .concat 은 원본은 바꾸지않음 
 4. 주석과 다른방식은 원본을 건들지 않고
 5. 주석의 방법을 쓰면 퍼포먼스에 영향을 끼치기에 수정이 어려움 
-#### 19.7 Create 구현 : contents 변경 ####
+#### 19.7 Create 구현 : shouldComponentUpdate 변경 ####
+## 19.6의 문제점 ##
+1. var b = a.concat(n); 설명
+2. TOC가 매번 실행되기에 부분적으로 실행가능
+3. shouldComponentUpdate 그아래 render함수가 실행되지않음
+4. newProps에서 만약에 원소가 추가됬다면 추가된 것으로 보여줌
+5. this.props.data 에서 현재값을 알 수 있다.
+정리
+1. render이전에 shouldComponentUpdate가 실행된다
+2. shouldComponentUpdate가 return 값이 트루면 render가 호출되고 / false면 render가 호출 되지 않도록 약속되어있다.
+3. shouldComponentUpdate 새롭게 바뀐값과 이전값에 접근할수있다 
+4. 종합하면 ===> TOC 로 들어오는 data라 하는것을 
