@@ -123,3 +123,12 @@ export default App;
 2. shouldComponentUpdate가 return 값이 트루면 render가 호출되고 / false면 render가 호출 되지 않도록 약속되어있다.
 3. shouldComponentUpdate 새롭게 바뀐값과 이전값에 접근할수있다 
 4. 종합하면 ===> TOC 로 들어오는 data라 하는것을 
+#### 19.8 Create 구현 : immutable ####
+1. 원본을 변형하지 않는다.
+2. Array.from(a) = b 하면 내용은 같지만 새로운 배열이 만들어짐
+3. a ==/ b
+4. 복사된 새로운 객체를 만들고싶을때
+    var b = Object.assign({},a);
+    a ==/ b
+5. Immutable 원본을 언제든 유지할수있음!
+    
