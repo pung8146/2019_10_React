@@ -131,4 +131,6 @@ export default App;
     var b = Object.assign({},a);
     a ==/ b
 5. Immutable 원본을 언제든 유지할수있음!
-    
+#### 20.1 Update 구현 ####
+1. 업데이트는 Create와 Read기능을 포함하고 있다고 볼 수 도있음
+2. 
