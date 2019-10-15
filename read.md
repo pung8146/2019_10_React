@@ -131,6 +131,8 @@ export default App;
     var b = Object.assign({},a);
     a ==/ b
 5. Immutable 원본을 언제든 유지할수있음!
-#### 20.1 Update 구현 ####
+#### 20.1/2/3 Update 구현 ####
 1. 업데이트는 Create와 Read기능을 포함하고 있다고 볼 수 도있음
-2. 
+2. react 에서 html로 보이지만 실제 html은 아님
+3. 새로운 js의 기능 []
+4. this.inputFormHandler = this.inputFormHandler.bind(this)로 줄임가능 

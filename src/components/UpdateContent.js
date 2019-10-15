@@ -1,6 +1,16 @@
 import React, { Component } from 'react';
 
 class UpdateContent extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      title:this.props.data.title,
+      desc:this.props.data.desc
+    }
+  }
+  inputFormHandler(e){
+    this.setState({[e.target.name]:e.target.value});
+  }
   render(){
     console.log(this.props.data);
     console.log('Content render');
@@ -16,8 +26,22 @@ class UpdateContent extends Component {
              );
            }.bind(this)}
          >
-           <p><input type="text" name="title" placeholder="title"></input></p>
-           <p><textarea name="desc" placeholder="dsecription"></textarea></p>
+           <p>
+             <input 
+                type="text" 
+                name="title" 
+                placeholder="title"
+                value={this.state.title}
+                onChange={this.inputFormHandler.bind(this)}
+             ></input>
+            </p>
+           <p>
+             <textarea 
+              onChange={this.inputFormHandler.bind(this)} 
+                name="desc" 
+                placeholder="dsecription" 
+                value={this.state.desc}></textarea>
+           </p>
            <p><input type="submit"></input></p>
          </form>
         </article>
