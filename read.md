@@ -136,3 +136,4 @@ export default App;
 2. react 에서 html로 보이지만 실제 html은 아님
 3. 새로운 js의 기능 []
 4. this.inputFormHandler = this.inputFormHandler.bind(this)로 줄임가능 
+5.
