@@ -136,4 +136,6 @@ export default App;
 2. react 에서 html로 보이지만 실제 html은 아님
 3. 새로운 js의 기능 []
 4. this.inputFormHandler = this.inputFormHandler.bind(this)로 줄임가능 
-5.
+5. from 을 사용하면 원본이 유지되는 새로운 배열이만들어짐
+6. setState에서 모드를 변경함 
+7. 업데이트가안됨
